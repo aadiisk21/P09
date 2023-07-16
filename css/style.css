@@ -210,7 +210,8 @@ select {
 
   .side-left {
     width: 100vw;
-    height: 25vh;
+    /* height: 25vh; */
+    height: 24rem;
     /* min-width: 326px; */
     border-top-left-radius: 0;
     border-top-right-radius: 0;
