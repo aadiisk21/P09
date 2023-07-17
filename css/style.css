@@ -12,7 +12,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  /* background-color: black; */
 }
 
 /* Remove default margin */
@@ -50,7 +49,6 @@ body {
   margin: 0 auto;
   overflow: hidden;
   font-family: "Hanken Grotesk", sans-serif;
-  /* border: 1px solid red; */
 }
 
 /* A elements that don't have a class get default styles */
@@ -91,7 +89,6 @@ select {
 
 /* editing start from here */
 #main_body {
-  /* border: 1px solid green; */
   width: 75.1vw;
   height: 100vh;
   margin: 0 auto;
@@ -107,7 +104,6 @@ select {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  /* border: 1px solid black; */
   border-radius: 1.6rem;
   width: 36.5rem;
   height: 25.5rem;
@@ -127,7 +123,6 @@ select {
   border-top-right-radius: 1.6rem;
   border-bottom-right-radius: 1.6rem;
   text-align: center;
-  /* border: 1px solid green; */
 }
 
 .heading {
@@ -148,7 +143,6 @@ select {
   border-radius: 50%;
   background: linear-gradient(var(--Violet-blue), var(--Persian-blue));
   margin-bottom: 1.3rem;
-  /* border: 1px solid black; */
 }
 
 .circle h1 {
@@ -181,10 +175,8 @@ select {
   width: 50%;
   height: 100%;
   padding: 0 2rem;
-  /* border: 1px solid greenyellow; */
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
 }
 
 .summery-heading {
@@ -196,7 +188,6 @@ select {
 }
 
 .box {
-  /* padding: 0.5rem 1rem; */
   width: 14.3rem;
   height: 2.55rem;
   display: flex;
@@ -204,11 +195,9 @@ select {
   align-items: center;
   margin: 0.5rem 0;
   border-radius: 8px;
-  /* border: 1px solid black; */
 }
 
 .box p {
-  /* margin: 0 0.45rem; */
   font-size: 0.9rem;
   font-weight: bold;
 }
@@ -311,9 +300,7 @@ button.btn-continue:hover {
 
   .side-left {
     width: 100vw;
-    /* height: 25vh; */
     height: 24rem;
-    /* min-width: 326px; */
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     border-bottom-left-radius: 1.6rem;
